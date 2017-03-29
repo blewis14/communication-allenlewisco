@@ -6,5 +6,5 @@ Brython is a JS-based python interpreter for the web.<br />
 Details at <a href="http://brython.info/">Brython's site</a>.
 # github-py
 <em>Note: github-py was not made by me.</em><br />
-github-py is a useful API for GitHub.<br />
+github-py is a useful python API for GitHub.<br />
 Details at <a href="https://github.com/michaelliao/githubpy">github-py's GitHub site</a>.
