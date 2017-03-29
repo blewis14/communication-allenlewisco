@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0">
+    <script src="brython.js"></script>
   </head>
-  <body>
-    <a href="/index.php/">If browser does not redirect, click here.</a>
+  <body onload="brython()">
+    <script type="text/python">
+      from browser import document, alert, ajax
+      
+    </script>
   </body>
 </html>
