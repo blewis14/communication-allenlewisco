@@ -7,6 +7,9 @@
     <script type="text/python">
       from browser import document, alert, ajax
       import github as git
+      from passwd import key
+      
+      gh = git.GitHub(username="blewis14", password=key)
     </script>
     <p>Testing...</p>
   </body>
