@@ -1,8 +1,6 @@
 'use strict'
 
-var zzzzzzzzzzzzzzzzzzzzzz = require([]);
-
-var http = require('http')
+var http = require(['http'], function ('name') {});
 var https = require('https')
 var url = require('url')
 var util = require('util')
