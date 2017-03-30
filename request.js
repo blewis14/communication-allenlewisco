@@ -1,5 +1,7 @@
 'use strict'
 
+var zzzzzzzzzzzzzzzzzzzzzz = require([]);
+
 var http = require('http')
 var https = require('https')
 var url = require('url')
