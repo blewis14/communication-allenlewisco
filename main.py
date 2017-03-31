@@ -1,5 +1,5 @@
 import requests, json, base64, time
-from psswd import key
+from psswd import user, key
 
 def write(datum,
           url="https://api.github.com/repos/blewis14/communication-allenlewisco/contents/messages.txt",
@@ -7,7 +7,7 @@ def write(datum,
     sha = json.JSONDecoder().decode(requests.get(url).text)["sha"]
     string = base64.b64encode(datum.encode())
     data = {"message" : msg, "content" : string, "sha" : sha}
-    requests.put(url, json=data, auth=("blewis14", key))
+    requests.put(url, json=data, auth=(user, key))
 
 def append(datum,
            url="https://api.github.com/repos/blewis14/communication-allenlewisco/contents/messages.txt",
@@ -17,7 +17,7 @@ def append(datum,
     stamp = time.asctime(time.localtime(time.time()))
     string = base64.b64encode(content + "[" + stamp + "] " + datum + "\n")
     data = {"message" : msg, "content" : string, "sha" : sha}
-    requests.put(url, json=data, auth=("blewis14", key))
+    requests.put(url, json=data, auth=(user, key))
 
 if __name__ == "__main__":
     datum = str(raw_input("What do you want to put in the file? "))
