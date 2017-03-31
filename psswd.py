@@ -1,5 +1,5 @@
-# Put your username here:
-user = ""
+# My username goes here:
+user = "blewis14"
 
-# Put your password here:
+# My password goes here (is filled in the .exe file):
 key = ""
