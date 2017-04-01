@@ -1,1 +1,2 @@
 [Fri Mar 31 07:48:28 2017] First message!
+[Fri Mar 31 20:00:10 2017] Message 2
