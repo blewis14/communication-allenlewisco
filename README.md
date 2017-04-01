@@ -9,4 +9,5 @@
 6. Click "Install" if you want to complete the process, or "Back" if you made a mistake.
 7. Click "Finish". You have successfully installed Communication!
 8. To start Communication, if it hasn't started already, double-click on the desktop<br />shortcut the installer created, or go into the Start Menu and find it there.
-You're all set!
+
+You're all set and ready to go!
