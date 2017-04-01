@@ -1,7 +1,7 @@
 import requests, json, base64, time
 from psswd import user, key
 
-VERSION = "0.2.2.9"
+VERSION = "0.2.4.3"
 
 def addMessage(datum,
                url="https://api.github.com/repos/blewis14/communication-allenlewisco/contents/messages.txt",
