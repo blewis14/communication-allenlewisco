@@ -3,3 +3,4 @@
 [Mon Apr 03 10:31:58 2017] Did you get Communication set up?
 [Mon Apr 03 12:42:41 2017] I guess not
 [Tue Apr 11 10:11:01 2017] Hi Levi!
+[Fri Apr 21 15:22:53 2017] Have you got Communication ready?
